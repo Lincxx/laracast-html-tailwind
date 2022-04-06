@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laravel From Scratch Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body style="font-family:Open Sans, sans-serif">
+  <section class="px-6 py-8">
+    <nav class="md:flex md:justify-between md:items-center">
+      <div>
+        <a href="/">
+          <img src="./images/logo.svg" alt="laracast logo" width="165" heigh="16">
+        </a>
+      </div>
+
+      <div class="mt-8 md:mt-0">
+        <a href="" class="text-xs font-bold uppercase">Home page</a>
+        <a href="" class="bg-blue-500 ml-3 rounded-full text-sx font-semi bold text-white uppercase py-3 px-5">Subscribe for Updates</a>
+      </div>
+      
+    </nav>
+  
+    <main class="max-w-6xl mx-auto md:mt-6 lg:mt-20 space-y-6">
+        <article class="max-w-4xl mx-auto lg:grid lg:grid-cols-12 gap-x-10">
+            <div class="col-span-4 text-center">
+                <img src="./images/illustration-1.png" alt="" class="rounded-xl" >
+                <p class="mt-2 block text-gray-400 text-xs mt-4">
+                    Published <time>1 day ago</time>
+                </p>
+                <div class="flex items-center justify-center text-sm mt-4">
+                    <img src="./images/lary-avatar.svg" alt="">
+                    <div class="ml-3 text-left">
+                        <h5 class="font-bold">Larry Laracore</h5>
+                        <h6>Mascot at Laracasts</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-8">
+                <h1 class="font-bold text-4xl mb-6">This is a big title and it will look great on two or even lines. WoooHoo!</h1>
+
+                <div class="space-y-6">
+                    <p>Bacon ipsum dolor amet leberkas shankle hamburger chislic. Capicola ribeye venison, burgdoggen meatball pancetta corned beef pastrami fatback jowl chislic turkey beef kielbasa. Shankle landjaeger porchetta cupim filet mignon. Porchetta jerky pork chop sausage pastrami venison kevin burgdoggen pork belly drumstick leberkas. Turkey shank porchetta jowl meatloaf swine brisket venison prosciutto boudin pork chop bresaola.</p>
+
+                    <p>Turducken ham short ribs, ham hock chuck pork loin drumstick salami. Cow andouille rump buffalo burgdoggen. Doner ground round beef ribs, turducken sausage kevin boudin beef alcatra bacon landjaeger short loin. Hamburger beef ribs swine tongue.</p>
+                    
+                    <p>Shankle flank pork belly shoulder chislic frankfurter pork loin buffalo leberkas biltong drumstick short loin strip steak rump. Chicken pork belly alcatra fatback, picanha chislic biltong jerky turducken short ribs ham filet mignon frankfurter. Landjaeger flank chislic pork chop spare ribs. Drumstick salami rump alcatra sausage tongue andouille capicola kevin bresaola landjaeger. Shoulder buffalo tail brisket. Pork chop filet mignon porchetta chislic, shankle strip steak pastrami.</p>
+                    
+                    <h2 class="font-bold text-lg">Sed quia consequat</h2>
+
+                    <p>Kevin jowl ham chislic. Fatback pig chicken alcatra pork belly t-bone pastrami bresaola strip steak bacon beef ribs sausage. Landjaeger ground round shoulder, beef buffalo andouille filet mignon drumstick kevin boudin. Chislic ball tip ham hock buffalo tenderloin ham filet mignon pastrami tri-tip bresaola spare ribs burgdoggen rump.</p>
+                    
+                    <p>Ground round ribeye flank tri-tip meatloaf ham hock. Fatback chuck beef pastrami, cupim chislic swine sausage prosciutto chicken leberkas. Meatball andouille pig kevin strip steak fatback brisket. Alcatra shank tongue salami leberkas corned beef. Short loin shank shoulder pork chop tongue pastrami tenderloin filet mignon jowl beef ribs alcatra capicola bresaola kielbasa sirloin. T-bone andouille doner, pork loin biltong shankle beef filet mignon. Frankfurter chicken landjaeger cupim, fatback flank tail andouille beef rump tri-tip shankle shank.</p>
+                    
+                </div>
+            </div>
+        </article>
+    </main>
+    
+    <footer class="border border-black bg-gray-100 border-opacity-5 rounded-xl text-center py-16 px-10 mt-16">
+      <img src="./images/lary-newsletter-icon.png" alt="" class="mx-auto" style="width:145px;">
+      <h5 class="text-3xl">Stay in touch with the lastest posts</h5>
+      <p class="text-sm">Promise to keep the inbox clean. No bugs</p>
+
+      <div class="mt-10">
+        <div class="relative inline-block mx-auto lg:bg-gray-200 rounded-full ">
+          
+          <form action="" class="lg:flex text-sm">
+            <div class="lg:py-3 lg:px-5 inline-flex items-center">
+              <label for="email" class="hidden lg:tw-inline">
+                <img src="./images/mailbox-icon.svg" alt="">
+              </label>
+              <input type="text" placeholder="Your email address" class="lg:bg-transparent pl-3 focus-within:outline-none" id="email">
+            </div>
+            <button type="submit" class="bg-blue-500 lg:ml-3 rounded-full text-sx font-semi bold text-white uppercase py-3 px-8 lg:mt-0 lg:ml-3">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+  </section>
+
+
+</body>
+</html>
